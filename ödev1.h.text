@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ödev</title>
+   <style>
+    .sayfa{
+     width:360px;
+     margin:auto;
+      }
+   table{
+      background:gray;
+      border-spacig: 10px;
+      text-aling: center;
+     }
+    table .btn{
+     width: 60px;
+     background:white;
+     text-aling: center;
+     line-height: 60px;
+     color:black;
+     font-size: 1.5em
+     }
+ #islem, #gosterge{
+  padding:10px;
+  text-aling: right;
+} 
+ #gosterge{
+   height: 60px;
+   background:gray;
+   color: black; 
+   font-size: 1,8em;
+   line-height: 40px;
+   padding:10px;
+   box-sizing: border-box;
+}
+   #islem{
+     background:gray;
+}
+   </style>
+</head>
+
+<body>
+    <div class="sayfa">
+     <h1>hesap makinesi</h1>
+      <table>
+<tr>
+ <td colspan="5" id ="gosterge">1</td>
+</tr>
+<tr>
+<td colspan="5" id="gosterge">1</td>
+</tr>
+<tr>
+         <td class="btn">%</td>
+         <td class="btn">/</td>
+         <td class="btn">c</td>
+         <td class="btn">del</td>
+       </tr>
+<tr>
+         <td class="btn">7</td>
+         <td class="btn">8</td>
+         <td class="btn">9</td>
+         <td class="btn">*</td>
+       </tr>
+ <tr>
+         <td class="btn">4</td>
+         <td class="btn">5</td>
+         <td class="btn">6</td>
+         <td class="btn">-</td>
+       </tr>
+ <tr>
+         <td class="btn">1</td>
+         <td class="btn">2</td>
+         <td class="btn">3</td>
+         <td class="btn">+</td>
+       </tr>
+ <tr>
+         <td class="btn">00</td>
+         <td class="btn">0</td>
+         <td class="btn">.</td>
+         <td class="btn">=</td>
+       </tr>
+       </table>
+    </div>
+ </body>
+ </html>	
